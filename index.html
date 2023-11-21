@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <main>
+        <div id="Container-form">
+            <form autocomplete="on">
+                <input type="text" id="Name" placeholder="Name" class="inputs" />
+                <input type="password"id="Password" placeholder="password" class="inputs" />
+                <div id="Container-options">
+                    <div class="subcontainers-options">
+                        <input type="checkbox" id="myCheckbox">
+                        <label for="nyCheckbox">Remember me</label>
+                    </div>
+                    <div class="subcontainers-options">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+                <p id="Authenticator">Enter your authentication numbers</p>
+                <div id="Container-select">
+                    <select id="Select1" class="selects">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select id="Select2" class="selects">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select id="Select3" class="selects">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <button type="submit" id="Button">Login</button>
+            </form>
+            <p id="Result"></p>
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

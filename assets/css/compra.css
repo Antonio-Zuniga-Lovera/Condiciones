@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat url('https://pic-bstarstatic.akamaized.net/ugc/2620e38ad81e378eb37466945f0eef70.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+    height: 60%;
+    color: #fff;
+    font-size: bold;
+    text-align: center;
+}
+
+main p {
+    width: 100%;
+    height: 5%;
+    font-size: 1.1rem;
+}
+
+#Subcontainer-stickers {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.cards-stickers {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+.cards-stickers img {
+    width: 90%;
+    height: 90%;
+}
+
+.cards-stickers .inputs-number {
+    width: 40%;
+}
+
+#Answer {
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-color: aqua;
+    border-style: outset;
+    border-color: rgb(150, 251, 217);
+    margin: 0 2em;
+}
+
+button:active {
+    border-style: inset;
+}
+
+#Buy {
+    background-color: #00ff00;
+}

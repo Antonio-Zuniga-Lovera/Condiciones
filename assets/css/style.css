@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat url('../img/anime.jpg');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    width: 30%;
+    height: 60%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#Container-form {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+form .inputs {
+    width: 96%;
+    padding: 0.5em;
+    padding-top: 2em;
+    border-color: transparent;
+    background: none;
+    border-bottom: 1px solid #fff;
+    font-size: 1rem;
+    color: #000;
+}
+
+form .inputs::placeholder {
+    color: #383838;
+}
+
+form .inputs:focus {
+    outline: none;
+}
+
+#Container-options {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    padding-top: 1em;
+}
+
+.subcontainers-options label {
+    color: #000;
+}
+
+.subcontainers-options a {
+    text-decoration: none;
+    font-style: italic;
+    color: #000;
+}
+
+button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(245, 178, 245);
+    border: none;
+    cursor: pointer;
+}
+
+#Authenticator {
+    font-size: 1.1rem;
+    color: rgb(0, 255, 208);
+    text-align: center;
+}
+
+#Container-select {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+#Container-select .selects {
+    border-radius: 7px;
+    padding: 1em;
+    background-color: aqua;
+    border: none;
+}
+
+
+#Result {
+    font-size: 1.1rem;
+    padding-top: 1em;
+    color: rgb(0, 255, 208);
+    text-align: center;
+}
