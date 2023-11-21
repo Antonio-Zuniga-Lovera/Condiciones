@@ -40,6 +40,7 @@ buttonVerify.addEventListener('click', () => {
     if(result > 10) {
         alert('Solo puedes llevar 10 stickers');
         buy.disabled = true;
+        buy.style.borderStyle = 'none';
     } else {
         buy.disabled = false;
     }
