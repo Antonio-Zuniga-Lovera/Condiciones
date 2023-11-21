@@ -5,8 +5,6 @@ const form = document.querySelector('form');
 const body = document.querySelector('body');
 
 form.addEventListener('submit', async (e) => {
-    const name = document.querySelector('#Name').value;
-    const password = document.querySelector('#Password').value;
     const select1 = document.querySelector('#Select1').value;
     const select2 = document.querySelector('#Select2').value;
     const select3 = document.querySelector('#Select3').value;
